@@ -8,6 +8,7 @@ If you use this repository for your research, please cite our work.
 
 ## Pretrained Models
 [Here](https://faui1-files.cs.fau.de/public/mmsec/moussa/2022-MMFORWILD/trained_models/) you can download our pretrained pytorch models for our experiments specified in the [paper](https://arxiv.org/abs/2207.14682).
+![image-architecture](images/architecture.png)
 ## Project organization
 Folders and files are organized as follows.
 
