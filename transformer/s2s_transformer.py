@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from torch.nn import Transformer
 import math
-from NEW.nn.transformer.dataprep import create_mask
+from transformer.dataprep import create_mask
 import pathlib
 
 import sys
