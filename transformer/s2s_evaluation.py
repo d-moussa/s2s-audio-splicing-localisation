@@ -1,12 +1,11 @@
-
 from torch import Tensor
 import torch
 import torch.nn as nn
 from torch.nn import Transformer
 from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import DataLoader
-from NEW.nn.transformer.dataprep import BOS_IDX, EOS_IDX, create_mask, generate_square_subsequent_mask
-from NEW.nn.transformer.dataprep import special_symbols
+from transformer.dataprep import BOS_IDX, EOS_IDX, create_mask, generate_square_subsequent_mask
+from transformer.dataprep import special_symbols
 import pathlib
 from pathlib import Path
 import json
