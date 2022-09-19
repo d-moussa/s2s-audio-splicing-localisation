@@ -1,5 +1,5 @@
 # Towards Unconstrained Audio Splicing Detection and Localization with Neural Networks
-This repository contains the code to generate the dataset used for the paper 
+This repository contains the code for the paper 
 **Denise Moussa, Germans Hirsch, Christian Riess. Towards Unconstrained Audio Splicing Detection and Localization with Neural Networks, 2022**.
 accepted to [MMForWILD](https://iplab.dmi.unict.it/mmforwild22/) and currently available on [arXiv](https://arxiv.org/abs/2207.14682).
 If you use this repository for your research, please cite our work.
