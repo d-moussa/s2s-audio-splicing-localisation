@@ -22,7 +22,7 @@ train_set_name = "ace"
 splice_name = "single"
 experiment_name = "cleanMultiinput"
 
-use_single_encoder = False                                  # Uses single input Transformer if True or multi input Transformer if False
+use_single_encoder = True                                  # Uses single input Transformer if True or multi input Transformer if False
 encoder_memory_transformation = "concatenate"               # Encoder strategy: projection, concatenate, None
 #memory_layer_args = {}
 enc_args_list = [                                           # List of dicts for each encoder input or empty list for single input

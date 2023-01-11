@@ -28,6 +28,8 @@ class PositionalEncoding(nn.Module):
         pos = torch.arange(0, maxlen).reshape(maxlen, 1)
         pos_embedding = torch.zeros((maxlen, emb_size))
         pos_embedding[:, 0::2] = torch.sin(pos*den)
+        if emb_size % 2 == 1:
+            den = den[:-1]
         pos_embedding[:, 1::2] = torch.cos(pos*den)
         pos_embedding = pos_embedding.unsqueeze(-2)
 
